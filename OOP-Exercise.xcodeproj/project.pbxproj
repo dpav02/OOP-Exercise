@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B048A9C61C0ACDA300220D7C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = B048A9C51C0ACDA300220D7C /* Character.swift */; };
+		B048A9C81C0AD27D00220D7C /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B048A9C71C0AD27D00220D7C /* GameState.swift */; };
 		F179E5051C0A8A590072104A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179E5041C0A8A590072104A /* AppDelegate.swift */; };
 		F179E5071C0A8A590072104A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179E5061C0A8A590072104A /* ViewController.swift */; };
 		F179E50A1C0A8A590072104A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F179E5081C0A8A590072104A /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B048A9C51C0ACDA300220D7C /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		B048A9C71C0AD27D00220D7C /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		F179E5011C0A8A580072104A /* OOP-Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OOP-Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F179E5041C0A8A590072104A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F179E5061C0A8A590072104A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				F179E50B1C0A8A590072104A /* Assets.xcassets */,
 				F179E50D1C0A8A590072104A /* LaunchScreen.storyboard */,
 				F179E5101C0A8A590072104A /* Info.plist */,
+				B048A9C51C0ACDA300220D7C /* Character.swift */,
+				B048A9C71C0AD27D00220D7C /* GameState.swift */,
 			);
 			path = "OOP-Exercise";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B048A9C61C0ACDA300220D7C /* Character.swift in Sources */,
+				B048A9C81C0AD27D00220D7C /* GameState.swift in Sources */,
 				F179E5071C0A8A590072104A /* ViewController.swift in Sources */,
 				F179E5051C0A8A590072104A /* AppDelegate.swift in Sources */,
 			);
@@ -290,6 +298,7 @@
 				F179E5151C0A8A590072104A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
