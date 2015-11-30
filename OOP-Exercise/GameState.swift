@@ -7,16 +7,9 @@
 //
 
 import Foundation
+import UIKit
 
 class GameState {
-    
-    func hideButton(button: String ) {
-        
-    }
-    
-    func showButton(button: String) {
-        
-    }
     
     func showOutputMessage(msg: String) {
         

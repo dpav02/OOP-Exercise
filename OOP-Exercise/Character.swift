@@ -49,6 +49,12 @@ class Character {
         }
     }
     
+    var attackPower: Int {
+        get {
+            return self._attackPower
+        }
+    }
+    
     var isAlive: Bool {
         get {
             if self._hp <= 0 {
